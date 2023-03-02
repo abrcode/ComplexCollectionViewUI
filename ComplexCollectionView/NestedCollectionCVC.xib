@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NestedCollectionCVC" id="gTV-IL-0wX" customClass="NestedCollectionCVC" customModule="ComplexCollectionView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="178"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="441" height="178"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xt8-43-45b">
+                        <rect key="frame" x="0.0" y="0.0" width="441" height="178"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Lge-We-GPd">
+                                <rect key="frame" x="0.0" y="0.0" width="441" height="178"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="m2D-TN-6jO">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Lge-We-GPd" secondAttribute="trailing" id="TV2-36-3Fd"/>
+                            <constraint firstItem="Lge-We-GPd" firstAttribute="top" secondItem="xt8-43-45b" secondAttribute="top" id="ZmA-4s-Mrb"/>
+                            <constraint firstAttribute="bottom" secondItem="Lge-We-GPd" secondAttribute="bottom" id="fS3-7d-o85"/>
+                            <constraint firstItem="Lge-We-GPd" firstAttribute="leading" secondItem="xt8-43-45b" secondAttribute="leading" id="k25-se-VMT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xt8-43-45b" secondAttribute="trailing" id="83Z-DP-cpM"/>
+                <constraint firstItem="xt8-43-45b" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ObY-PU-S8a"/>
+                <constraint firstItem="xt8-43-45b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fIl-HV-pnL"/>
+                <constraint firstAttribute="bottom" secondItem="xt8-43-45b" secondAttribute="bottom" id="mTQ-kp-B9r"/>
+            </constraints>
+            <size key="customSize" width="441" height="178"/>
+            <point key="canvasLocation" x="421.01449275362324" y="142.63392857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
