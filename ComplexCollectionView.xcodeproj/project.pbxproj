@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824F5B4029BC8F99005E25E4 /* SectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 824F5B3F29BC8F99005E25E4 /* SectionHeader.xib */; };
+		824F5B4629BD7DF0005E25E4 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F5B4529BD7DF0005E25E4 /* SectionHeader.swift */; };
 		82D0CBD129AFD2BD0033E683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D0CBD029AFD2BD0033E683 /* AppDelegate.swift */; };
 		82D0CBD329AFD2BD0033E683 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D0CBD229AFD2BD0033E683 /* SceneDelegate.swift */; };
 		82D0CBD529AFD2BD0033E683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D0CBD429AFD2BD0033E683 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		824F5B3F29BC8F99005E25E4 /* SectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeader.xib; sourceTree = "<group>"; };
+		824F5B4529BD7DF0005E25E4 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		82D0CBCD29AFD2BD0033E683 /* ComplexCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D0CBD029AFD2BD0033E683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D0CBD229AFD2BD0033E683 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		824F5B3A29BC3A11005E25E4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				82D0CC0029AFD4430033E683 /* BiographyCVC.swift */,
+				82D0CC0129AFD4430033E683 /* BiographyCVC.xib */,
+				82D0CC0429AFD6900033E683 /* AboutInfoCell.swift */,
+				82D0CC0529AFD6900033E683 /* AboutInfoCell.xib */,
+				82D0CC0829AFDA030033E683 /* NestedCollectionCVC.swift */,
+				82D0CC0929AFDA030033E683 /* NestedCollectionCVC.xib */,
+				824F5B3F29BC8F99005E25E4 /* SectionHeader.xib */,
+				824F5B4529BD7DF0005E25E4 /* SectionHeader.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		82D0CBC429AFD2BD0033E683 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +130,7 @@
 		82D0CBCF29AFD2BD0033E683 /* ComplexCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				824F5B3A29BC3A11005E25E4 /* Cells */,
 				82D0CBD029AFD2BD0033E683 /* AppDelegate.swift */,
 				82D0CBD229AFD2BD0033E683 /* SceneDelegate.swift */,
 				82D0CBD429AFD2BD0033E683 /* ViewController.swift */,
@@ -118,12 +138,6 @@
 				82D0CBD929AFD2BF0033E683 /* Assets.xcassets */,
 				82D0CBDB29AFD2BF0033E683 /* LaunchScreen.storyboard */,
 				82D0CBDE29AFD2BF0033E683 /* Info.plist */,
-				82D0CC0029AFD4430033E683 /* BiographyCVC.swift */,
-				82D0CC0129AFD4430033E683 /* BiographyCVC.xib */,
-				82D0CC0429AFD6900033E683 /* AboutInfoCell.swift */,
-				82D0CC0529AFD6900033E683 /* AboutInfoCell.xib */,
-				82D0CC0829AFDA030033E683 /* NestedCollectionCVC.swift */,
-				82D0CC0929AFDA030033E683 /* NestedCollectionCVC.xib */,
 			);
 			path = ComplexCollectionView;
 			sourceTree = "<group>";
@@ -249,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824F5B4029BC8F99005E25E4 /* SectionHeader.xib in Resources */,
 				82D0CBDD29AFD2BF0033E683 /* LaunchScreen.storyboard in Resources */,
 				82D0CC0729AFD6900033E683 /* AboutInfoCell.xib in Resources */,
 				82D0CBDA29AFD2BF0033E683 /* Assets.xcassets in Resources */,
@@ -282,6 +297,7 @@
 				82D0CBD529AFD2BD0033E683 /* ViewController.swift in Sources */,
 				82D0CBD129AFD2BD0033E683 /* AppDelegate.swift in Sources */,
 				82D0CC0229AFD4430033E683 /* BiographyCVC.swift in Sources */,
+				824F5B4629BD7DF0005E25E4 /* SectionHeader.swift in Sources */,
 				82D0CC0629AFD6900033E683 /* AboutInfoCell.swift in Sources */,
 				82D0CBD329AFD2BD0033E683 /* SceneDelegate.swift in Sources */,
 				82D0CC0A29AFDA030033E683 /* NestedCollectionCVC.swift in Sources */,
